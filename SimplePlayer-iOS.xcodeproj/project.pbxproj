@@ -22,6 +22,8 @@
 		3226C6B62C00EA2200A566B0 /* DisplayLinkPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3226C6AE2C00EA2200A566B0 /* DisplayLinkPublisher.swift */; };
 		3226C6BA2C00F5EB00A566B0 /* test.flac in Resources */ = {isa = PBXBuildFile; fileRef = 3226C6B92C00F5EB00A566B0 /* test.flac */; };
 		32CAE6642C0B4E2000285212 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32CAE6632C0B4E2000285212 /* test.mp3 */; };
+		7FF105392EA829C6004CE12E /* Above The Clouds (Jonathan Peters' Velvet Mix) copy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FF105382EA829C6004CE12E /* Above The Clouds (Jonathan Peters' Velvet Mix) copy.mp3 */; };
+		7FF1053C2EA82C78004CE12E /* FrameReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF1053B2EA82C78004CE12E /* FrameReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		3226C6AE2C00EA2200A566B0 /* DisplayLinkPublisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayLinkPublisher.swift; sourceTree = "<group>"; };
 		3226C6B92C00F5EB00A566B0 /* test.flac */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.flac; sourceTree = "<group>"; };
 		32CAE6632C0B4E2000285212 /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
+		7FF105382EA829C6004CE12E /* Above The Clouds (Jonathan Peters' Velvet Mix) copy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Above The Clouds (Jonathan Peters' Velvet Mix) copy.mp3"; sourceTree = "<group>"; };
+		7FF1053B2EA82C78004CE12E /* FrameReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 		3226C6892C00DF3A00A566B0 /* SimplePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				7FF105382EA829C6004CE12E /* Above The Clouds (Jonathan Peters' Velvet Mix) copy.mp3 */,
 				3226C6AC2C00EA2200A566B0 /* SimplePlayerApp.swift */,
 				3226C6AA2C00EA2200A566B0 /* DataModel.swift */,
 				3226C6A92C00EA2200A566B0 /* PlayerViewModel.swift */,
@@ -87,6 +92,7 @@
 				32CAE6632C0B4E2000285212 /* test.mp3 */,
 				3226C68E2C00DF3C00A566B0 /* Assets.xcassets */,
 				3226C6902C00DF3C00A566B0 /* Preview Content */,
+				7FF1053B2EA82C78004CE12E /* FrameReader.swift */,
 			);
 			path = SimplePlayer;
 			sourceTree = "<group>";
@@ -165,6 +171,7 @@
 			files = (
 				3226C6BA2C00F5EB00A566B0 /* test.flac in Resources */,
 				3226C6A42C00E98500A566B0 /* LICENSE.txt in Resources */,
+				7FF105392EA829C6004CE12E /* Above The Clouds (Jonathan Peters' Velvet Mix) copy.mp3 in Resources */,
 				32CAE6642C0B4E2000285212 /* test.mp3 in Resources */,
 				3226C6922C00DF3C00A566B0 /* Preview Assets.xcassets in Resources */,
 				3226C6A52C00E98500A566B0 /* README.md in Resources */,
@@ -185,6 +192,7 @@
 				3226C6B12C00EA2200A566B0 /* PlayerViewModel.swift in Sources */,
 				3226C68D2C00DF3A00A566B0 /* ContentView.swift in Sources */,
 				3226C6B52C00EA2200A566B0 /* TrackView.swift in Sources */,
+				7FF1053C2EA82C78004CE12E /* FrameReader.swift in Sources */,
 				3226C6B22C00EA2200A566B0 /* DataModel.swift in Sources */,
 				3226C6B32C00EA2200A566B0 /* Track.swift in Sources */,
 			);
@@ -316,10 +324,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SimplePlayer/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8JA2526KZB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
@@ -349,10 +357,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SimplePlayer/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8JA2526KZB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";

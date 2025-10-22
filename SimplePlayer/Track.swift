@@ -34,6 +34,14 @@ struct Track: Identifiable {
 
 	/// Returns a decoder for this track or `nil` if the audio type is unknown
 	func decoder(enableDoP: Bool = false) throws -> PCMDecoding? {
+        
+        Task.detached {
+        
+            let reader = FrameReader()
+            reader.readMP3Frame(from: url)
+        }
+        
+        
 		let pathExtension = url.pathExtension.lowercased()
 		if AudioDecoder.handlesPaths(withExtension: pathExtension) {
 			return try AudioDecoder(url: url)

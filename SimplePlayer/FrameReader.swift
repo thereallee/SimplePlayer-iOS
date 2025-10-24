@@ -47,7 +47,10 @@ class FrameReader {
                 
             let frameData = Data(bytes: inInputData.advanced(by: packetOffset), count: packetSize)
             // Process the frameData here
+            
+            
             print("Read MP3 frame with size: \(packetSize)")
+            print("bytes == ", frameData.bytes)
         },
                                           kAudioFileMP3Type,
                                           &audioFileStream)

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -46,6 +46,10 @@
 		7FF1053B2EA82C78004CE12E /* FrameReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7FF1053D2EA9833E004CE12E /* Extensions */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Extensions; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		3226C6842C00DF3A00A566B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -79,6 +83,7 @@
 		3226C6892C00DF3A00A566B0 /* SimplePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				7FF1053D2EA9833E004CE12E /* Extensions */,
 				7FF105382EA829C6004CE12E /* Above The Clouds (Jonathan Peters' Velvet Mix) copy.mp3 */,
 				3226C6AC2C00EA2200A566B0 /* SimplePlayerApp.swift */,
 				3226C6AA2C00EA2200A566B0 /* DataModel.swift */,
@@ -119,6 +124,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7FF1053D2EA9833E004CE12E /* Extensions */,
 			);
 			name = SimplePlayer;
 			packageProductDependencies = (

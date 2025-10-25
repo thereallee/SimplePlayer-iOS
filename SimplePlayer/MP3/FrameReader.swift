@@ -50,7 +50,7 @@ class FrameReader {
             
             
             print("Read MP3 frame with size: \(packetSize)")
-            print("bytes == ", frameData.bytes)
+            print("bytes == ", frameData.asBytes)
         },
                                           kAudioFileMP3Type,
                                           &audioFileStream)

@@ -30,6 +30,9 @@ class FrameReader {
                 if inPropertyID == kAudioFileStreamProperty_DataFormat {
                     // You can check the format here
                 }
+            
+            print ("property id == \(inPropertyID )")
+
             }
         ,
           

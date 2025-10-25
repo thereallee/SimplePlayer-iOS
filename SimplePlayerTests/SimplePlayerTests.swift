@@ -36,7 +36,7 @@ struct SimplePlayerTests {
         // Hex: FFC81440 (1111 1111 111 | 10 | 10 | 0 | 0100 | 01 | 0 | 0 | 11 | 00 | 0 | 1 | 00)
         // Sync=11, Ver=10 (MPEG 2), Lyr=10 (L2), Prot=0, BR=0100 (64k), SR=01 (24k), Pad=0, Priv=0, Ch=11 (Mono), Ext=00, Copy=0, Orig=1, Emph=00
         
-        let headerAsInt : UInt32 = 0xFFF444C4
+        let headerAsInt : UInt32 = 0xFFF484C4
         
         let binaryString = String(headerAsInt, radix: 2)
         print(binaryString) // Prints "10110"
@@ -56,6 +56,8 @@ struct SimplePlayerTests {
             XCTFail("didn't get a header back")
             return
         }
+        
+        print("header==\(header)")
         
         XCTAssert(header.version == .mpeg2, "Version should be .version2")
         XCTAssert(header.layer == .layerII, "Layer should be .layer2")
